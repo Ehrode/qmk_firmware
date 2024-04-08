@@ -33,4 +33,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SD1_RX_PIN                          B7
 #define SD1_RX_PAL_MODE                     0
 
-#define EECONFIG_KB_DATA_SIZE             8
+#define EECONFIG_KB_DATA_SIZE               8
+
+#define UNICODE_KEY_WINC               			KC_RALT
+
+#define UNICODE_SELECTED_MODES 							UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_MACOS
+
+#define TAPPING_TERM 												200
